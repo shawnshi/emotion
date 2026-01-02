@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, Mic, ChevronDown, ChevronUp } from 'lucide-r
 import { clsx } from 'clsx';
 
 // Icons for symptoms
-import { Frown, Coffee, Battery, Utensils } from 'lucide-react';
+import { Frown, Wind, Battery, Utensils } from 'lucide-react';
 
 const DailyLog = () => {
   const navigate = useNavigate();
@@ -14,7 +14,7 @@ const DailyLog = () => {
 
   const symptoms = [
     { id: 'cramps', label: 'Cramps', icon: <Frown className="w-4 h-4" /> },
-    { id: 'bloating', label: 'Bloating', icon: <Coffee className="w-4 h-4" /> }, // Coffee as placeholder
+    { id: 'bloating', label: 'Bloating', icon: <Wind className="w-4 h-4" /> },
     { id: 'headache', label: 'Headache', icon: <Frown className="w-4 h-4" /> },
     { id: 'cravings', label: 'Cravings', icon: <Utensils className="w-4 h-4" /> },
     { id: 'acne', label: 'Acne', icon: <Frown className="w-4 h-4" /> },
