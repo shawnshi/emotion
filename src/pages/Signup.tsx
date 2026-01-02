@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Apple } from 'lucide-react';
+import { Apple, Smile } from 'lucide-react';
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -14,12 +14,7 @@ const Signup = () => {
     <div className="flex flex-col items-center justify-center min-h-screen p-6 max-w-md mx-auto">
       <div className="mb-8 flex flex-col items-center">
         <div className="w-24 h-24 bg-app-pink rounded-full flex items-center justify-center mb-6">
-           {/* Placeholder for the face icon in the image */}
-           <div className="relative">
-             <div className="w-4 h-4 bg-app-dark rounded-full absolute -left-3 -top-1"></div>
-             <div className="w-4 h-4 bg-app-dark rounded-full absolute -right-3 -top-1"></div>
-             <div className="w-2 h-2 bg-app-dark rounded-full absolute left-1/2 transform -translate-x-1/2 top-4"></div>
-           </div>
+           <Smile className="w-12 h-12 text-app-dark" />
         </div>
         <h1 className="text-3xl font-bold mb-2">Create Account</h1>
         <p className="text-app-text-muted text-center">Start your personalized journey with us.</p>
